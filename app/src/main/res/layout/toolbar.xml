@@ -1,0 +1,24 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    app:contentInsetLeft="15dp"
+    app:contentInsetStart="15dp"
+    android:titleTextColor="@color/black"
+    app:contentInsetStartWithNavigation="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.maya.pqvalidator.customviews.WSSemiBoldTextView
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/tvTitle"
+        android:textColor="@color/white"
+        android:text="SCAN QR'CODE"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.Toolbar>
